@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/search', [SearchController::class, 'show']);
+//Route::get('/search', [SearchController::class, 'show']);
 
-Route::get('/myMap', function () {
-    return view('myMap');
+Route::get('/addCamp', function () {
+    return view('addCampView');
 });
